@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: taskly
+=======
+name: todo_app
+>>>>>>> 0fab890a3bcace444213a762de58c82d9f439058
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

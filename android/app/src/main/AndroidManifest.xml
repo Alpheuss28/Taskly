@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="taskly"
+=======
+        android:label="todo_app"
+>>>>>>> 0fab890a3bcace444213a762de58c82d9f439058
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

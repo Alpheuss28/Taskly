@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # taskly
+=======
+# todo_app
+>>>>>>> 0fab890a3bcace444213a762de58c82d9f439058
 
 A new Flutter project.
 
