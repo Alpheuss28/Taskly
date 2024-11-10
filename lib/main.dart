@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:taskly/theme/light_colors.dart';
 import 'package:flutter/services.dart';
 
+import 'package:taskly/theme/light_colors.dart';
+import 'screens/home_page.dart';
 void main() {
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     systemNavigationBarColor: LightColors.kLightYellow, // navigation bar color
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
             displayColor: LightColors.kDarkBlue,
             fontFamily: 'Poppins'),
       ),
-      home: const Text("Hello, World!"),
+      home: const HomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
