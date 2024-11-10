@@ -8,6 +8,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
+
     return Scaffold(
       backgroundColor: LightColors.kLightYellow,
       body: SafeArea(
@@ -15,7 +17,27 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
             TopContainer(
               height: 200,
-              width: ,
+              width: width,
+              child: const Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: <Widget>[
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Icon(
+                        Icons.menu,
+                        color: LightColors.kDarkBlue,
+                        size: 30,
+                      ),
+                      Icon(
+                        Icons.search,
+                        color: LightColors.kDarkBlue,
+                        size: 25,
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ],
         ),
